@@ -1,0 +1,241 @@
+body {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  color: white;
+  letter-spacing: 0.02em;
+  line-height: 1.5;
+}
+
+h1 {
+  color: #ffffff;
+  font-size: 56px;
+  font-weight: 700;
+  line-height: 1.07;
+  letter-spacing: 0.02em;
+}
+
+h2 {
+  color: #2e2f42;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+}
+
+h3 {
+  color: #2e2f42;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+}
+p {
+  color: #434455;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+/* Header Section Başlangıç */
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navigation .nav-list,
+.contacts-list .address-list {
+  display: flex;
+  gap: 40px;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.navigation a {
+  color: #2e2f42;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0.02em;
+}
+
+.nav-link:hover {
+  color: #404bbf;
+  cursor: pointer;
+}
+
+.contacts-link:hover {
+  color: #404bbf;
+  cursor: pointer;
+}
+
+.contacts a {
+  color: #434455;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.02em;
+}
+
+a {
+  text-decoration: none;
+}
+
+.logo {
+  font-family: "Raleway", sans-serif;
+  font-size: 18px;
+  text-transform: uppercase;
+  font-weight: 700;
+  letter-spacing: 0.03em;
+  line-height: 21px;
+  vertical-align: middle;
+}
+
+.logo1 {
+  color: #4d5ae5;
+}
+
+.logo2 {
+  color: #2e2f42;
+}
+/* Header Section Bitiş */
+
+/* Hero Section Başlangıç */
+.hero-box {
+  background-color: #2e2f42;
+  align-items: center;
+  text-align: center;
+}
+
+.page-title {
+  color: #ffffff;
+  font-size: 56px;
+  font-weight: 700;
+  line-height: 60px;
+  letter-spacing: 0.02em;
+  max-width: 496px;
+}
+
+.hero-button {
+  color: #ffffff;
+  background-color: #4d5ae5;
+  padding-top: 16px;
+  padding-bottom: 16px;
+  padding-left: 32px;
+  padding-right: 32px;
+  gap: 10px;
+  border-radius: 4px;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+  border: none;
+  letter-spacing: 0.04em;
+}
+
+.hero-button:hover {
+  background-color: #404bbf;
+  cursor: pointer;
+}
+/* Hero Section Bitiş */
+
+/* Section 1 Başlangıç */
+.features-list {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  list-style: none;
+  font-size: 20px;
+  line-height: 24px;
+  letter-spacing: 0.02em;
+  font-weight: 400;
+}
+
+.features-list .features-text {
+  max-width: 230px;
+}
+/* Section 1 Bitiş */
+
+/* Section 2 Başlangıç */
+.team {
+  background-color: #f4f4fd;
+  align-items: center;
+  text-align: center;
+}
+
+.team-list {
+  display: flex;
+  justify-content: center;
+  gap: 32px;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.team-member-box {
+  background-color: #ffffff;
+  padding-bottom: 34px;
+}
+
+.team-photo {
+  border-top-left-radius: 4px;
+  border-top-right-radius: 4px;
+}
+/* Section 2 Bitiş */
+
+/* Section 3 Başlangıç */
+.portfolio {
+  text-align: center;
+  align-items: center;
+  text-align: center;
+}
+
+.portfolio-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.portfolio-item {
+  flex: 1 1 calc(33.333% - 20px);
+  box-sizing: border-box;
+}
+/* Section 3 Bitiş */
+
+/* Footer Başlangıç */
+.footer {
+  background-color: #2e2f42;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+.footer .logo-footer {
+  font-family: "Raleway", sans-serif;
+  font-size: 18px;
+  text-transform: uppercase;
+  font-weight: 700;
+  letter-spacing: 0.03em;
+  line-height: 1.16;
+  vertical-align: middle;
+}
+
+.logo-footer .logo1 {
+  color: #4d5ae5;
+}
+.logo-footer .logo2 {
+  color: #f4f4fd;
+}
+
+.footer-text {
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  margin-top: 20px;
+  max-width: 264px;
+}
+/* Footer Bitiş */
